@@ -7,6 +7,7 @@
  */
 static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = { "Hack:pixelsize=12:antialias=true:autohint=true" };
+static char *font3[] = { "FontAwesome:pixelsize=12:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -96,32 +97,32 @@ float alpha = 0.94;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     	/* 8 normal colors */
-	"#282a36",
-	"#f07178",
-	"#c3e88d",
-	"#ffcb6b",
-	"#82aaff",
-	"#c792ea",
-	"#89ddff",
-	"#d0d0d0",
+	"#282c34",
+	"#e25f69",
+	"#80ba56",
+	"#e3f45f",
+	"#3096f7",
+	"#be5cdb",
+	"#56b6c2",
+	"#dddee2",
 
 	/* 8 bright colors */
-	"#676d87",
-	"#ff8b92",
-	"#ddffa7",
-	"#ffe585",
-	"#9cc4ff",
-	"#e1acff",
-	"#a3f7ff",
-	"#ffffff",
+	"#5c5a72",
+	"#be5046",
+	"#60ae29",
+	"#c98748",
+	"#008bff",
+	"#953baf",
+	"#39c909b",
+	"#98a5c4",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#282a36", /* 256 -> cursor */
 	"#bbc5ff", /* 257 -> reverse cursor */
-	"#d7d7d7", /* 258 -> background */
-	"#ebdbb2", /* 259 -> foreground */
+	"#090B0E", /* 258 -> background */
+	"#bed6ff", /* 259 -> foreground */
 };
 
 /*
