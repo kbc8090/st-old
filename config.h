@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "Hack:pixelsize=12:antialias=true:autohint=true" };
+static char *font2[] = { "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
 static char *font3[] = { "FontAwesome:pixelsize=12:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -45,7 +45,7 @@ int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
 static unsigned int xfps = 120;
-static unsigned int actionfps = 30;
+static unsigned int actionfps = 110;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
