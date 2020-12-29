@@ -20,7 +20,7 @@ XTerm*locale: true
 
 URxvt*termName: xterm-256color
 URxvt*letterSpace: 0
-URxvt*font: xft:JetBrainsMono Nerd Font:size=13:style=Medium, xft:CaskaydiaCove Nerd Font:size=13:style=Regular, xft:JoyPixels:pixelsize=14
+URxvt*font: xft:Consolas:size=15:style=Medium, xft:CaskaydiaCove Nerd Font:size=13:style=Regular, xft:JoyPixels:pixelsize=14
 URxvt*scrollBar: false
 URxvt*depth: 32
 URxvt*sizeHints: true
@@ -41,7 +41,7 @@ URxvt*cursorColor: #c387ea
 
 !--- st (suckless) Settings ----!
 
-*alpha: 0.84
+st.alpha: 0.88
 st.font: CaskaydiaCove Nerd Font:style=Regular:size=13:dpi=96:antialias=true:autohint=false:hinting=true:rgba=rgb:hintstyle=hintslight:lcdfilter=lcddefault
 
 ! special
